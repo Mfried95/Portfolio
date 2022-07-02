@@ -79,11 +79,31 @@ nav{
 
 /* TYPEOGRAPHY */
 
-a{
-    
+a {
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
     text-decoration: none;
-    color: black;
-}
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 
 strong{
