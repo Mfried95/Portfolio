@@ -38,11 +38,12 @@ nav{
 .intro-card{
     background-color: #7D9D9C;
     color: #E4DCCF;
-    width: 15em;
+    width: 20em;
     margin: auto;
     margin-top: 15em;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 
@@ -108,7 +109,7 @@ h4{
     animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
     cursor: pointer;
     height: 20px;
-    margin: 6em auto;
+    margin: 8.5em auto;
   }
   
   .arrow-down {
