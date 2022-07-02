@@ -79,7 +79,7 @@ nav{
 
 /* TYPEOGRAPHY */
 
-a {
+nav a {
     color: rgb(10, 10, 10);
     text-transform: uppercase;
     text-decoration: none;
@@ -87,7 +87,7 @@ a {
     padding: 15px 20px;
     position: relative;
   }
-  a:after {    
+  nav a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -100,7 +100,7 @@ a {
     width: 0;
   }
   
-  a:hover:after { 
+  nav a:hover:after { 
     width: 100%; 
     left: 0; 
   }
