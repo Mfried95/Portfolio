@@ -48,6 +48,19 @@ nav{
     text-align: center;
     border-radius: 2rem;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
 
 .intro-icons{
