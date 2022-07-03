@@ -1,97 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Michael Friedman | Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
 </head>
+
 <body>
+
     <div class="container">
-        <header>
-            <nav>
+        <div class="navbar">
+            <div class="brand-title"></div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Resume</a></li>
-            </nav>
-        </header>
-
-        <section class="intro-card">
-                <h2><strong>M</strong>ichael <strong>F</strong>riedman</h2>
-                <p>FrontEnd Devloper</p>
-        </section>
-
-        <div class="intro-icons">
-            <a href="https://github.com/Mfried95" target="blank_"><img src="icons/github.svg" alt="" id="github"></a>
-            <img src="icons/linkedin.svg" alt="" id="linkedin">
-        </div>
-        
-        <div class="arrow-container">
-            <div class="arrow-down"></div>
-            <div class="arrow-down"></div>
+              </ul>
+            </div>
         </div>
 
+    <section class="intro-card">
+            <h2><strong>M</strong>ichael <strong>F</strong>riedman</h2>
+            <p><span>F</span>rontEnd <span>D</span>evloper</p>
+    </section>
+
+    <div class="intro-icons">
+        <a href="https://github.com/Mfried95" target="blank_"><img src="icons/github.svg" alt="" id="github"></a>
+        <img src="icons/linkedin.svg" alt="" id="linkedin">
+    </div>
+
+    <div class="arrow-container">
+        <div class="arrow-down"></div>
+        <div class="arrow-down"></div>
+    </div>
+
+    <section class="my-projects" id="projects">
         <h4>My Projects</h4>
         <hr>
-        <section class="my-projects" id="projects">
-            
-            <div class="project-card landing-page">
-                <div class="project-picture">
-                    <img src="images/unnamed.jpg" alt="">
-                </div>
-                <div class="project-info">
-                    <h2>Bookmark Landing Page</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae hic voluptatem modi possimus! Harum, tempora.</p>
-                    <div class="project-buttons">
-                        <button class="live">Live</button>
-                        <button class="source">Source Code</button>
-                    </div>
+        
+        <div class="project-card">
+            <img src="images/unnamed.jpg" alt="">
+            <div class="project-info">
+                <h2>Bookmark Landing page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed temporibus vel itaque? Iusto, ipsam?</p>
+                <div class="project-buttons">
+                    <a href="#">Live View</a>
+                    <a href="#">Source Code</a>
                 </div>
             </div>
+        </div>
 
-            
-            <div class="project-card">
-                <div class="project-picture">
-                    <img src="images/movieApp.png" alt="">
-                </div>
-                <div class="project-info">
-                    <h2>Bookmark Landing Page</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae hic voluptatem modi possimus! Harum, tempora.</p>
-                    <div class="project-buttons"></div>
-                </div>
-            </div>
-
-
-            <div class="project-card">
-                <div class="project-picture">
-                    <img src="images/time-dashboard.png" alt="">
-                </div>
-                <div class="project-info">
-                    <h2>Bookmark Landing Page</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae hic voluptatem modi possimus! Harum, tempora.</p>
-                    <div class="project-buttons"></div>
+        <div class="project-card">
+            <img src="images/movieApp.png" alt="">
+            <div class="project-info">
+                <h2>Bookmark Landing page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed temporibus vel itaque? Iusto, ipsam?</p>
+                <div class="project-buttons">
+                    <a href="#">Live View</a>
+                    <a href="#">Source Code</a>
                 </div>
             </div>
+        </div>
 
 
-            <div class="project-card">
-                <div class="project-picture">
-                    <img src="images/pricing-component.jpg" alt="">
-                </div>
-                <div class="project-info">
-                    <h2>Bookmark Landing Page</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae hic voluptatem modi possimus! Harum, tempora.</p>
-                    <div class="project-buttons"></div>
+        <div class="project-card">
+            <img src="images/time-dashboard.png" alt="">
+            <div class="project-info">
+                <h2>Bookmark Landing page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed temporibus vel itaque? Iusto, ipsam?</p>
+                <div class="project-buttons">
+                    <a href="#">Live View</a>
+                    <a href="#">Source Code</a>
                 </div>
             </div>
+        </div>
+
+
+        <div class="project-card">
+            <img src="images/pricing-component.jpg" alt="">
+            <div class="project-info">
+                <h2>Bookmark Landing page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sed temporibus vel itaque? Iusto, ipsam?</p>
+                <div class="project-buttons">
+                    <a href="#">Live View</a>
+                    <a href="#">Source Code</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 
 
 
 
-        </section>
-    
+
     </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/eee053b3e0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

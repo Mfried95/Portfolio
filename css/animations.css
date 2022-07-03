@@ -1,0 +1,40 @@
+
+/* Arrow */
+.arrow-container {
+    width: 25px;
+    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    height: 20px;
+    margin: 8.5em auto;
+  }
+  
+  .arrow-down {
+    height: 6px;
+    margin-top: 1em;
+    background: rgb(0, 0, 0);
+    opacity: 75%;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    border-radius: 5px;
+  }
+  .arrow-down:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 100%;
+    border-radius: 5px;
+    background: black;
+    transform: rotate(-90deg);
+    transform-origin: 0% 100%;
+  }
+  
+  @keyframes bounce {
+  50% {
+      transform: translateY(-15px);
+    }
+  }
+
+
+
+  

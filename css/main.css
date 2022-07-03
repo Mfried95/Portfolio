@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+@import url(nav.css);
+@import url(animations.css);
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #F0EBE3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Page layout */
+
+.intro-card{
+    color: #7D9D9C;
+    padding: 1em;
+    margin-top: 4em;
+    text-align: center;
+    font-size: 2rem;
+    line-height: .5em;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.intro-icons{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-icons img{
+    width: 30px;
+    margin: 0 .5em;
+}
+
+.my-projects{
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   padding-top: 3em;
+   gap: 5em;
+}
+
+.project-card{
+    display: flex;
+}
+
+
+.project-card img{
+    max-width: 50%;
+    width: 500px;
+}
+
+.project-info{
+    max-width: 500px;
+    width: 100%;
+    padding-left: 2em;
+}
+
+
+
+
+
+/* TYPEOGRAPHY */
+
+strong{
+    color: black;
+}
+
+.intro-card p {
+    color: black;
+    font-size: 1.5rem;
+}
+
+span{
+    color: #7D9D9C;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+hr{
+    width: 100%;
+}
+
+.project-buttons{
+    margin-top: 3em;
+    align-items: center;
+}
+
+.project-buttons a{
+    text-decoration: none;
+    background-color: #7D9D9C;
+    color: white;
+    padding: .5em 1em;
+    margin: 0 .5em;
+}
+
+.project-buttons a:hover{
+    text-decoration: none;
+    background-color: #F0EBE3;
+    color: black;
+    border: 1px solid black;
+    padding: .5em 1em;
+}
+
+
+
+@media (max-width: 800px){
+
+   .intro-card h2{
+    font-size: 1em;
+   }
+
+   .my-projects{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+ }
+
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        min-width: 50%;
+        align-items: center;
+    }
+
+    .project-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  
+     .project-card img{
+        max-width: 350px;
+        min-width: 300px;
+    }
+
+    .project-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
