@@ -95,11 +95,28 @@ body {
 }
 
 .about{
-    width: 40%;
+    width: 80%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 7em auto;
+    animation: myAnim 1s ease 0s 1 normal forwards;
 }
+
+.about-info{
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+
+.tech-icons img{
+    width: 3em;
+    margin: 1em;
+    margin: auto;
+}
+
+
+
 
 /* TYPEOGRAPHY */
 
@@ -120,8 +137,8 @@ h4{
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
-    margin: 0;
-    padding-top: 1em;
+    margin: -2em;
+    padding-top: 4em;
 }
 
 h2{
@@ -156,11 +173,17 @@ hr{
     padding: .5em 1em;
 }
 
+
 .about h2{
     text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1em;
 }
 
-
+.tech-stack h1{
+    text-align: center;
+    font-size: 1.25rem;
+}
 
 
 /* DESKTOP */
@@ -209,8 +232,9 @@ hr{
         margin-top: 1em;
     }
 
-    .about{
-        width: 80%;
+    .about-info{
+        width: 100%;
+        font-size: 1.25rem;
         justify-content: center;
         align-items: center;
     }
