@@ -116,6 +116,47 @@ body {
 }
 
 
+.contact{
+    width: 50%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin:  10em auto;
+    gap: 5em;
+    background-color: #E4DCCF;
+    opacity: 80%;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    gap: 1em;
+    
+}
+
+input{
+    padding: 1em;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    padding: 0 2em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7D9D9C;
+    height: 4em;
+}
+
+.into-icons,.footer-icons{
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
 
 
 /* TYPEOGRAPHY */
@@ -185,6 +226,17 @@ hr{
     font-size: 1.25rem;
 }
 
+.form-submit{
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.contact h2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
 
 /* DESKTOP */
 @media (max-width: 800px){
@@ -237,6 +289,16 @@ hr{
         font-size: 1.25rem;
         justify-content: center;
         align-items: center;
+    }
+
+    .contact{
+        width: 95%;
+    }
+
+    .into-icons,.footer-icons{
+        width: 10%;
+        padding: 0;
+        margin: auto;
     }
 
 }
