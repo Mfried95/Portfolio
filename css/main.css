@@ -301,6 +301,23 @@ hr{
         margin: auto;
     }
 
+    .project-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1em;
+
+    }
+    
+    .project-buttons a:hover{
+        text-decoration: none;
+        background-color: #F0EBE3;
+        color: black;
+        border: 1px solid black;
+        height: 2.5em;
+    }
+
+
 }
 
 
