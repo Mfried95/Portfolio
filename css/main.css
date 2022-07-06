@@ -77,11 +77,12 @@ body {
 }
 
 
-.project-card img{
+.project-card img {
     max-width: 50%;
     width: 500px;
     box-shadow: -2px -1px 18px 0px #000;
 }
+
 
 .project-info{
     max-width: 500px;
@@ -135,8 +136,9 @@ form{
     margin: auto;
     width: 90%;
     gap: 1em;
-    
 }
+
+
 
 input{
     padding: 1em;
@@ -287,6 +289,13 @@ hr{
     .about-info{
         width: 100%;
         font-size: 1.25rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tech-stack{
+        padding: 3em;
+        margin: auto;
         justify-content: center;
         align-items: center;
     }
