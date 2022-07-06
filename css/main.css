@@ -130,6 +130,8 @@ body {
     box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
 }
 
+
+
 form{
     display: flex;
     flex-direction: column;
@@ -138,6 +140,9 @@ form{
     gap: 1em;
 }
 
+textarea{
+    resize: none;
+}
 
 
 input{
@@ -231,6 +236,9 @@ hr{
 .form-submit{
     padding: 1em;
     margin-bottom: 3em;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: solid black 1px;
 }
 
 .contact h2{
@@ -238,6 +246,20 @@ hr{
     text-align: center;
     margin-top: 1em;
 }
+
+textarea{
+    padding: 1em;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-submit:hover{
+    background-color: #7D9D9C;
+    border-radius: 2rem;
+}
+
+
+
 
 
 /* DESKTOP */
